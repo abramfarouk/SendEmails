@@ -7,7 +7,7 @@ namespace SendEmails.Dtos
         [Required(ErrorMessage = "Plz enter UserName")]
         public string UserName { get; set; }
 
-        [Required(ErrorMessage = "Plz enter Email")]
+        [Required]
         public string Email { get; set; }
     }
 }
